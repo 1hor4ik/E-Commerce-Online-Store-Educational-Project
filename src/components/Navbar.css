@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+  .drawer {
+    display: none;
+  }
+  .close-drawer-btn {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .change-colormode-btn {
+    visibility: hidden;
+  }
+  .logout-btn {
+    visibility: hidden;
+  }
+}
